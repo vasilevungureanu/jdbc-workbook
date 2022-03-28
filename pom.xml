@@ -18,6 +18,7 @@
     <mockito.version>4.3.1</mockito.version>
     <assertj.version>3.22.0</assertj.version>
     <h2.version>2.1.210</h2.version>
+    <hikari.version>5.0.1</hikari.version>
   </properties>
 
   <dependencyManagement>
@@ -37,6 +38,11 @@
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
       <version>${h2.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+      <version>${hikari.version}</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
