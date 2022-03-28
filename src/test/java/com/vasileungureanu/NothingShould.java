@@ -1,4 +1,4 @@
-package com.vasileungureanu.kata;
+package com.vasileungureanu;
 
 import org.junit.jupiter.api.Test;
 
