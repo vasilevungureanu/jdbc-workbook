@@ -1,3 +1,3 @@
-# Kata Template Maven
+# JDBC Workbook
 
-A template for starting quickly with a Kata.
+https://www.marcobehler.com/books/2-jdbc-workbook
