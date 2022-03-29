@@ -19,6 +19,7 @@
     <assertj.version>3.22.0</assertj.version>
     <h2.version>2.1.210</h2.version>
     <hikari.version>5.0.1</hikari.version>
+    <datasource.version>1.6</datasource.version>
   </properties>
 
   <dependencyManagement>
@@ -43,6 +44,11 @@
       <groupId>com.zaxxer</groupId>
       <artifactId>HikariCP</artifactId>
       <version>${hikari.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.ttddyy</groupId>
+      <artifactId>datasource-proxy</artifactId>
+      <version>${datasource.version}</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
